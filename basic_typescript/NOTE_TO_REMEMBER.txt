@@ -1,0 +1,10 @@
+
+
+hot reloaded using lite-server !!
+-> npm run start  'please see package.json'
+
+set up before that:
+to run the local server
+
+1. compile typescript file -> to compile to index.ts to  index.js file
+2. type npm run start
