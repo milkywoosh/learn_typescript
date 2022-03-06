@@ -1,3 +1,9 @@
+type asTuple = [number, number, number]
+
+let tupleOfArray: asTuple;
+tupleOfArray = [1, 2, 3]
+
+
 let arr_multi_types: [number, string];
 
 arr_multi_types = [1, 'one'];

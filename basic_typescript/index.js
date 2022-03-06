@@ -24,3 +24,15 @@ var product = {
     }
 };
 console.log(product);
+function AdditionNumber(n1, n2) {
+    console.log(n1 + n2);
+}
+console.log(AdditionNumber(10, 40));
+var passingFunction = AdditionNumber;
+console.log(passingFunction(40, 70));
+// MUST DELETE LATER
+function AdditionTest(n1, n2) {
+    console.log(n1 + n2);
+}
+var combineValues;
+combineValues = AdditionTest(10, 30);
