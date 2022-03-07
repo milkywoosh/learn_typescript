@@ -43,3 +43,19 @@ let result: any = edit_nationality(emptyObj);
 let result1: any = edit_nationality(data_obj);
 console.log(result)
 console.log(result1)
+
+
+
+type objData = {
+    name: string,
+    cars: string[]
+}
+function fetchData(data: objData):void {
+    console.log(data)
+}
+
+const infoData: objData = {
+    name: "ben",
+    cars: ["ferrari", "lambo"]
+}
+fetchData(infoData);

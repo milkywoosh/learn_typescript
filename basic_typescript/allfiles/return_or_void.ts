@@ -10,3 +10,14 @@ function printResult(num: number): void {
 }
 
 printResult(10)
+
+
+function getArray(arr1: number[], n:number):number[] {
+    let modArr:number[] = [];
+    for (let i=0; i<arr1.length; i++) {
+        modArr.push(arr1[i]*n)
+    }
+    return modArr;
+}
+
+console.log(getArray([1,2,3], 2))

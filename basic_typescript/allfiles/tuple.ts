@@ -1,3 +1,4 @@
+// define type with specific element type and amount element in array
 type asTuple = [number, number, number]
 
 let tupleOfArray: asTuple;
