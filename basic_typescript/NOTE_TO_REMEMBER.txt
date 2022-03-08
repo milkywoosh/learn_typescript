@@ -8,3 +8,24 @@ to run the local server
 
 1. compile typescript file -> to compile to index.ts to  index.js file
 2. type npm run start
+
+
+another HOT ReLOAD
+-> use watchmode 
+tsc index.ts --watch or -w
+-downside --> need to be specific, and NOT very big project
+
+
+compile all typescript file
+1. tsc --init : this create tsconfig.json in SPECIFIC FOLDER
+2. tsc
+2. tsc --watch : this will watch all change or refresh all the changes
+
+
+excluding file to compile
+go to tsconfig.json
+ - create "EXCLUDE": ["analytics.ts"]: this file wont be compiled
+
+
+including file to compile
+go to tsconfig.json - INCLUDE certain files
