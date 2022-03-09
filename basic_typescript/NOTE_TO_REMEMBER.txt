@@ -15,6 +15,7 @@ another HOT ReLOAD
 tsc index.ts --watch or -w
 -downside --> need to be specific, and NOT very big project
 
+CONFIGURATION OF TYPESCRIPT DURING THE DEVELOPMENT !
 
 compile all typescript file
 1. tsc --init : this create tsconfig.json in SPECIFIC FOLDER
